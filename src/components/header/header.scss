@@ -1,0 +1,33 @@
+.header {
+  position: relative;
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+
+  .logo-container {
+    height: 100%;
+    width: 4.5rem;
+    padding: 1.5rem;
+  }
+
+  .options {
+    position: relative;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .option {
+      padding: 10px 15px;
+      text-transform: uppercase;
+      text-decoration: none;
+      cursor: pointer;
+      &:hover {
+        color: #7b7b7b;
+      }
+    }
+  }
+}

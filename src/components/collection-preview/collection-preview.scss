@@ -1,0 +1,17 @@
+.collection-preview {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+
+    .title {
+        font-size: 1.5rem;
+        margin-bottom: 1.5rem;
+        text-transform: uppercase;
+    }
+
+    .preview{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 10px;
+    }
+}
